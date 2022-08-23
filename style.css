@@ -8,6 +8,7 @@
 }
 
 .capa-enxoval {
+    background-image: url(./images/CAPA\ ENXOVAL2.png);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -52,7 +53,7 @@
 }
 
 .background-enxoval {
-    width: 680px;
+    width: 1000px;
     object-fit: cover;
 }
 
@@ -78,4 +79,10 @@
 .variados-esquerda {
     z-index: 1;
 }
+
+[type="checkbox"]:checked + a {
+    text-decoration:line-through;
+    color: #aeaeae;
+}
+
 
